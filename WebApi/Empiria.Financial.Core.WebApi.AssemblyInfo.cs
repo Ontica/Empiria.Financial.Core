@@ -1,10 +1,10 @@
-﻿/* Empiria Financial *****************************************************************************************
+﻿/*Empiria Financial ******************************************************************************************
 *                                                                                                            *
-*  System   : Payments Management System                   Module  : Payments Web Api                        *
-*  Assembly : Empiria.Payments.WebApi.dll                  Pattern : Assembly Attributes File                *
+*  System   : Financial Core                               Module  : Financial Core Web Api                  *
+*  Assembly : Empiria.Financial.Core.WebApi.dll            Pattern : Assembly Attributes File                *
 *                                                          License : Please read LICENSE.txt file            *
 *                                                                                                            *
-*  Summary  : HTTP/JSON web api used to interact with the Payments Management System's backend.              *
+*  Summary  : HTTP/JSON web api used to interact with Financial Core uses cases, types and services.         *
 *                                                                                                            *
 ************************* Copyright(c) La Vía Óntica SC, Ontica LLC and contributors. All rights reserved. **/
 using System;
