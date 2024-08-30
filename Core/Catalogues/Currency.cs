@@ -10,7 +10,7 @@
 
 namespace Empiria.Financial.Core {
 
-  public class Currency: BaseObject {
+  public class Currency: GeneralObject {
 
     #region Constructors and parsers
 
