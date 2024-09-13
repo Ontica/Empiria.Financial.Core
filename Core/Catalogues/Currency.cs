@@ -27,17 +27,26 @@ namespace Empiria.Financial.Core {
 
     #endregion Constructors and parsers
 
+    #region Properties
 
-    #region Public Methods
+    public string Code {
+      get {
+        return base.ExtendedDataField.Get("code", "ND");
+      }
+    }
+
+    #endregion Properties
+
+
+    #region Methods
 
     static public FixedList<Currency> GetList() {
       return BaseObject.GetList<Currency>()
                        .ToFixedList();
     }
 
+    #endregion Methods
 
-    #endregion Public Methods
+  }  // class Currency
 
-  }
-
-}
+} // namespace Empiria.Financial.Core
